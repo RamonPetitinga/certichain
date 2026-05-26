@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CertiChain</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <section class="hero">
+        <p class="tag">ProofChain • Trilha Blockchain</p>
+        <h1>CertiChain</h1>
+        <p>Registro e verificação pública de certificados usando blockchain.</p>
+        <button id="btnConectar">Conectar MetaMask</button>
+        <p id="conta" class="conta">Carteira não conectada</p>
+      </section>
+
+      <section class="card">
+        <h2>Registrar certificado</h2>
+        <p>
+          Use a carteira emissora do contrato para registrar o hash do
+          certificado.
+        </p>
+
+        <label>Arquivo PDF do certificado</label>
+        <input type="file" id="arquivoRegistro" />
+
+        <label>Aluno</label>
+        <input type="text" id="aluno" placeholder="Ex: Maria Silva" />
+
+        <label>Curso</label>
+        <input type="text" id="curso" placeholder="Ex: Formação Web 3.0" />
+
+        <label>Instituição</label>
+        <input
+          type="text"
+          id="instituicao"
+          placeholder="Ex: Residência TIC 29"
+        />
+
+        <button id="btnRegistrar">Registrar na blockchain</button>
+        <pre id="saidaRegistro"></pre>
+      </section>
+
+      <section class="card">
+        <h2>Verificar certificado</h2>
+        <p>
+          Envie o certificado recebido para verificar se ele possui registro
+          on-chain.
+        </p>
+
+        <label>Arquivo PDF para verificação</label>
+        <input type="file" id="arquivoVerificacao" />
+
+        <button id="btnVerificar">Verificar autenticidade</button>
+        <pre id="saidaVerificacao"></pre>
+      </section>
+    </main>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
