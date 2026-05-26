@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: #e5e7eb;
+}
+
+.container {
+  width: min(980px, 92%);
+  margin: 0 auto;
+  padding: 32px 0;
+}
+
+.hero {
+  padding: 36px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #1e293b, #0f766e);
+  margin-bottom: 24px;
+}
+
+.tag {
+  color: #a7f3d0;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 44px;
+  margin: 8px 0;
+}
+
+.card {
+  background: #111827;
+  border: 1px solid #334155;
+  border-radius: 18px;
+  padding: 24px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 14px;
+  margin-bottom: 6px;
+  color: #cbd5e1;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #475569;
+  background: #020617;
+  color: #f8fafc;
+}
+
+button {
+  margin-top: 16px;
+  padding: 12px 18px;
+  border: 0;
+  border-radius: 12px;
+  cursor: pointer;
+  color: #052e2b;
+  background: #5eead4;
+  font-weight: bold;
+}
+
+button:hover {
+  filter: brightness(1.08);
+}
+
+pre {
+  white-space: pre-wrap;
+  background: #020617;
+  border: 1px solid #334155;
+  padding: 14px;
+  border-radius: 12px;
+  min-height: 60px;
+  margin-top: 16px;
+}
+
+.conta {
+  font-size: 14px;
+  color: #d1fae5;
+}
