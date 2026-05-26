@@ -50,4 +50,33 @@ contract CertiChain {
         emit CertificadoRegistrado(certHash, curso, msg.sender);
     }
 
+    function verificarCertificado(bytes32 certHash)
+        public
+        view
+        returns (
+            bool valido,
+            string memory aluno,
+            string memory curso,
+            string memory instituicao,
+            uint256 dataEmissao,
+            address emissor
+        )
+    {
+        Certificado memory c = certificados[certHash];
 
+        if (!c.existe || !c.ativo) {
+            return (false, "", "", "", 0, address(0));
+        }
+
+        return (true, c.aluno, c.curso, c.instituicao, c.dataEmissao, c.emissor);
+    }
+
+    function revogarCertificado(bytes32 certHash) public onlyOwner {
+        require(certificados[certHash].existe, "Certificado nao encontrado");
+        require(certificados[certHash].ativo, "Certificado ja revogado");
+
+        certificados[certHash].ativo = false;
+
+        emit CertificadoRevogado(certHash);
+    }
+}
