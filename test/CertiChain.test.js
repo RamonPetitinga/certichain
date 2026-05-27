@@ -12,7 +12,7 @@ describe("CertiChain", function () {
       hash,
       "Aluno Teste",
       "Curso Blockchain",
-      "Instituicao Teste"
+      "Instituicao Teste",
     );
 
     const resultado = await contrato.verificarCertificado(hash);
@@ -32,7 +32,7 @@ describe("CertiChain", function () {
       hash,
       "Aluno Revogado",
       "Curso Blockchain",
-      "Instituicao Teste"
+      "Instituicao Teste",
     );
 
     await contrato.revogarCertificado(hash);
