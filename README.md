@@ -88,10 +88,7 @@ CertiChain-ProofChain
 ├── test
 │   └── CertiChain.test.js
 ├── docs
-│   ├── arquitetura.md
-│   └── evidencias
-├── slides
-│   └── roteiro_slides.md
+│   └── arquitetura.md
 ├── pitch
 │   └── video
 ├── hardhat.config.js
