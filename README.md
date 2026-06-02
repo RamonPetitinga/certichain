@@ -313,7 +313,7 @@ Função: testes, documentação.
 ```
 
 ```text
-Link: inserir link do YouTube não listado
+Link vídeo: https://www.youtube.com/watch?v=gXdTAKlids0
 ```
 
 ## Status do projeto
