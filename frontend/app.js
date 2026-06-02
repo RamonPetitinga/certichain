@@ -1,3 +1,9 @@
+/*
+ * Copyright (c) 2026 Web3irede
+ * SPDX-License-Identifier: MIT
+ * O texto completo da licença está no arquivo LICENSE na raiz do projeto.
+ */
+
 import { ethers } from "https://cdn.jsdelivr.net/npm/ethers@6.13.4/+esm";
 
 const CONTRACT_ADDRESS = "0x70775d932D678ceD0128e34b977c3eebAD29E756";

@@ -1,4 +1,6 @@
 // SPDX-License-Identifier: MIT
+// Copyright (c) 2026 Web3irede
+
 pragma solidity ^0.8.20;
 
 contract CertiChain {
@@ -80,3 +82,4 @@ contract CertiChain {
         emit CertificadoRevogado(certHash);
     }
 }
+
