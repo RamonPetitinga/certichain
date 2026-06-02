@@ -1,3 +1,9 @@
+/*
+ * Copyright (c) 2026 Web3irede
+ * SPDX-License-Identifier: MIT
+ * O texto completo da licença está no arquivo LICENSE na raiz do projeto.
+ */
+
 const { expect } = require("chai");
 const { ethers } = require("hardhat");
 
