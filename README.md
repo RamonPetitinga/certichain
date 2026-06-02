@@ -302,7 +302,7 @@ A equipe revisou, testou e validou o funcionamento do código e da solução, ma
 ## Equipe
 
 ```text
-Nome: Ramon Leite
+Nome: Ramon Leite Petitinga
 Função: Desenvolvimento, testes, documentação e apresentação.
 Nome: Delano Sarmento
 Função: Desenvolvimento.
